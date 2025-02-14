@@ -1,0 +1,6 @@
+- Clone the repo
+- Navigate into the `backend` folder
+- Run `npm install`
+- Run `npx web-push generate-vapid-keys` to generate your vapid keys and add them to the backend env and the public key to the frontend `index.js` file
+- Create a local or remote postgresql instance and add the uri to the backend api
+- Send notifications from the backend
