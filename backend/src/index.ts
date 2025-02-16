@@ -14,6 +14,8 @@ app.use(
   })
 )
 
+const PORT = process.env['PORT'] || 3000
+
 const pool = new Pool({
   connectionString: process.env['POSTGRES_URI'],
 })
@@ -96,6 +98,6 @@ app.post('/api/subscribe', subscribeHandler)
 app.post('/api/notify/:id', notifyHandler)
 
 // Start the server
-app.listen(3000, () => {
-  console.log('Server running on http://localhost:3000')
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`)
 })
