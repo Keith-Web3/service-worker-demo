@@ -2,11 +2,6 @@
 
 This project enables push notifications using the **Web Push API** with a **Node.js backend** and **PostgreSQL database**.
 
-### **Prerequisites**
-Ensure you have the following installed:
-- [Node.js](https://nodejs.org/)
-- [PostgreSQL](https://www.postgresql.org/) (If you'll be using a local instance)
-
 ### **Installation & Setup**
 
 1. Clone the Repository
