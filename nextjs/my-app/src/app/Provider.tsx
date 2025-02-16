@@ -67,7 +67,7 @@ function Provider() {
             // Send a test notification
             registration.showNotification('Hello!', {
               body: 'This is your test notification from frontend!',
-              icon: '/icon.png',
+              icon: '/vercel.svg',
             })
           } else {
             console.warn('Notification permission denied.')
