@@ -1,4 +1,5 @@
-const publicKey = 'WEB_PUSH_PUBLIC_KEY' // Replace with actual public key
+const publicKey =
+  'BF6O-WXOV0rtMHhPqCMe_SO-OrXPIA-v6JTNPuR_rTvudgBPXOWvYO2SE2Y26hHqEPQU8-wfn2eQlu_jLAjNv4I' // Replace with actual public key
 
 function urlBase64ToUint8Array(base64String) {
   const padding = '='.repeat((4 - (base64String.length % 4)) % 4)
