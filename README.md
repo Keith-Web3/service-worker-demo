@@ -21,7 +21,7 @@ cd backend && npm install
 ```sh
 npx web-push generate-vapid-keys
 ```
-4. Copy the generated public and private keys.
+4. Add the generated public and private keys to your env file.
 ```env
 VAPID_PUBLIC_KEY=<your_public_key>
 VAPID_PRIVATE_KEY=<your_private_key>
