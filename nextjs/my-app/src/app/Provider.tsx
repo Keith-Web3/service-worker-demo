@@ -47,7 +47,7 @@ function Provider() {
               })
 
               console.log({ subscription })
-              fetch('http://localhost:3000/api/subscribe', {
+              fetch(`${process.env['NEXT_PUBLIC_BASE_URL']}/api/subscribe`, {
                 method: 'POST',
                 headers: {
                   'Content-Type': 'application/json',
