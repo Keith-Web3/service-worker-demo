@@ -23,12 +23,12 @@ npx web-push generate-vapid-keys
 ```
 4. Add the generated public and private keys to your env file.
 ```env
-VAPID_PUBLIC_KEY=<your_public_key>
-VAPID_PRIVATE_KEY=<your_private_key>
+SW_PUBLIC_KEY=<your_public_key>
+SW_PRIVATE_KEY=<your_private_key>
 ```
 5. Configure the database
 ```env
-DATABASE_URL=postgres://username:password@host:port/dbname
+POSTGRES_URI=postgres://username:password@host:port/dbname
 ```
 6. Start up the backend
 ```sh
